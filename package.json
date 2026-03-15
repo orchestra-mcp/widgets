@@ -1,6 +1,6 @@
 {
   "name": "@orchestra-mcp/widgets",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Utility widget components for Orchestra MCP",
   "type": "module",
   "main": "./dist/index.js",
@@ -13,8 +13,12 @@
       "require": "./dist/index.js"
     }
   },
-  "files": ["dist"],
-  "publishConfig": { "access": "public" },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/orchestra-mcp/widgets"
@@ -22,7 +26,7 @@
   "funding": "https://github.com/sponsors/fadymondy",
   "license": "MIT",
   "dependencies": {
-    "@orchestra-mcp/icons": "^0.2.0",
+    "@orchestra-mcp/icons": "^1.0.0",
     "html-to-image": "^1.11.13"
   },
   "peerDependencies": {
@@ -40,5 +44,11 @@
     "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
     "prepublishOnly": "pnpm build"
   },
-  "keywords": ["orchestra", "mcp", "react", "components", "widgets"]
+  "keywords": [
+    "orchestra",
+    "mcp",
+    "react",
+    "components",
+    "widgets"
+  ]
 }
